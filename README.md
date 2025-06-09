@@ -1,8 +1,28 @@
 # Distributed Aries Agent Implementation for IoT Devices (ESP32)
 
+For cite this work please use:
+
+Boi, Biagio, Marco De Santis, and Christian Esposito. "Empowering Resource-Constrained WoT Devices
+With Lightweight Self-Sovereign Identity (SSI)" 2025 21st International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT). IEEE, 2025.
+```bib
+@INPROCEEDINGS{wot_boi,
+  author={Boi, Biagio; De Santis, Marco; and Esposito, Christian},
+  booktitle={2025 21st International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)}, 
+  title={Empowering Resource-Constrained WoT Devices With Lightweight Self-Sovereign Identity (SSI)}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={43-50},
+  doi={10.1109/DCOSS-IoT65416.2025.00015}}
+
+```
+
+
 This repository contains the implementation of protocols necessary to distribute an Aries JavaScript agent (CredoTS), enabling resource-constrained IoT devices, such as the ESP32, to function as agents, even if they do not possess the full computational capacity to run one autonomously.
 
 Through this approach, the IoT device delegates certain agent responsibilities to a distributed system while still maintaining essential cryptographic operations on the device itself, ensuring a secure and efficient operation.
+
+For the code of the Raspberry (Agent - Mediator) you can check [here](http://github.com/biagioboi/distribuited-credo-ts-agent).
 
 ## Features
 
